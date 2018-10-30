@@ -1,0 +1,39 @@
+Available Accounts
+==================
+(0) 0x0107be10b97ecd34cea1eedabd5069ca71d82a96 (~100 ETH)
+(1) 0xd0a7ce5aed3bcc5077f0a668b52254b98749f660 (~100 ETH)
+(2) 0xef3b0ccd1cf5988ba69c5e21e06f6df1e3cef9ed (~100 ETH)
+(3) 0xaf8b41d7e11fd5183730f12345c6eeb369b4e79a (~100 ETH)
+(4) 0x277ede27d949d1a3cfeafea5013f81e03506b337 (~100 ETH)
+(5) 0x1cf821cf9b1878a268da2aeab9fdaa36d09e7d0e (~100 ETH)
+(6) 0xb4e373b9ab3ca58dc84e12320845bd2a0d53634f (~100 ETH)
+(7) 0x2d6b992f862c3adc0a2eea28ee371170af98e162 (~100 ETH)
+(8) 0xb36eb6fa36b1400f5602178c894a30c52c9c9eba (~100 ETH)
+(9) 0x38a34504f0def7bb63e6ec2b015871db8804c2bc (~100 ETH)
+
+Private Keys
+==================
+(0) 0x503c6aaccc679b4965cff55bd78c3de508c21bd1d7bb7468d2efe4d712463bce
+(1) 0xcb774df2dddd4ed1c83f5da59f3e3679d6891b24598584e6440ae9c0791a1887
+(2) 0x9eb37b71a6a584c0dd69fb5f8059557f5f4692ff533e090ac0c2969fb064a7f4
+(3) 0x077b194d73a4a1b4f66a76edc7f63fc21808f852863e30236bb0b1b9afd5f63c
+(4) 0xa4853dfce1c078009cfd939cb24ed1199cbdab73975d9f4eebedc36bb5c525b8
+(5) 0x8ed02239640bfe1607e2b48ef9bc70c696d70e83a0ffe296010fc4b4cf92abad
+(6) 0x1ec4310510e0c3302576946622c89a1c884aad2661d7955cde0f925b28885ccd
+(7) 0x581203bf987371a6c666d5a20236ce99efda8553a310f6eea7316c92787ddb9c
+(8) 0x8bc17622e09079558e8eceeb8334549331102b705ad7b6201fdcc076851872ac
+(9) 0x6dc357843f76d9a850903ad99231930d780e83610f65c786f60d8f426d03536e
+
+HD Wallet
+==================
+Mnemonic:      antique better rule host boring scorpion drop hunt rose quantum hurdle urban
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Gas Price
+==================
+20000000000
+
+Gas Limit
+==================
+6721975
+

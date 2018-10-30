@@ -19,27 +19,27 @@ contract StarNotary is ERC721 {
     
 
     function checkIfStarExist(string _ra, string _dec, string _mag /*, string _cent*/) public view returns(bool) {
-        return registeredStarCoords[uint256(keccak256(_ra, _dec, _mag/*, _cent*/))];
+        return registeredStarCoords[uint256(keccak256(abi.encodePacked(_ra, _dec, _mag/*, _cent*/)))];
     }
     
 
     function createStar(string _name, string _story, string _ra, string _dec, string _mag, /*string _cent,*/ uint256 _tokenId) public { 
         
         require (checkIfStarExist(_ra, _dec, _mag) == false, "A star is already registered in the coordinates");
-        require (keccak256(tokenIdToStarInfo[_tokenId].name) == keccak256(""), "TokenId is already used");
+        require (keccak256(abi.encodePacked(tokenIdToStarInfo[_tokenId].name)) == keccak256(""), "TokenId is already used");
         require (_tokenId > 0, "Tokenid cannot be empty");
-        require (keccak256(_name) != keccak256(""), '"name" cannot be empty string');
-        require (keccak256(_story) != keccak256(""), '"story" cannot be empty string');
-        require (keccak256(_ra) != keccak256(""), '"ra" cannot be empty string');
-        require (keccak256(_dec) != keccak256(""), '"dec" cannot be empty string');
-        require (keccak256(_mag) != keccak256(""), '"mag" cannot be empty string');
-        // require (keccak256(_cent) != keccak256(""), '"cent" cannot be empty string');
+        require (keccak256(abi.encodePacked(_name)) != keccak256(""), '"name" cannot be empty string');
+        require (keccak256(abi.encodePacked(_story)) != keccak256(""), '"story" cannot be empty string');
+        require (keccak256(abi.encodePacked(_ra)) != keccak256(""), '"ra" cannot be empty string');
+        require (keccak256(abi.encodePacked(_dec)) != keccak256(""), '"dec" cannot be empty string');
+        require (keccak256(abi.encodePacked(_mag)) != keccak256(""), '"mag" cannot be empty string');
+        // require (keccak256(abi.encodePacked(_cent)) != keccak256(""), '"cent" cannot be empty string');
         
         
         Star memory newStar = Star(_name, _story, _ra, _dec, _mag /*, _cent*/);
 
         tokenIdToStarInfo[_tokenId] = newStar;
-        registeredStarCoords[uint256(keccak256(_ra, _dec, _mag/*, _cent*/))] = true;
+        registeredStarCoords[uint256(keccak256(abi.encodePacked(_ra, _dec, _mag/*, _cent*/)))] = true;
 
         _mint(msg.sender, _tokenId);
     }
@@ -72,3 +72,4 @@ contract StarNotary is ERC721 {
     }
     
 }
+// thunder choice denial relax narrow tilt south act cruel world exist cup
