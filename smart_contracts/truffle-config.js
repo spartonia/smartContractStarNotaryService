@@ -11,9 +11,10 @@
  *     gasPrice: 10000000000,
  *   },
  */
+ /*
 var HDWalletProvider = require('truffle-hdwallet-provider');
 
-var mnemonic = "antique better rule host boring scorpion drop hunt rose quantum hurdle urban";
+var mnemonic = "";
 
 module.exports = {
   networks: { 
@@ -32,3 +33,4 @@ module.exports = {
     }
   }
 };
+*/

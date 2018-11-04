@@ -72,4 +72,3 @@ contract StarNotary is ERC721 {
     }
     
 }
-// thunder choice denial relax narrow tilt south act cruel world exist cup

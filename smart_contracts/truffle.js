@@ -13,7 +13,7 @@
  */
 var HDWalletProvider = require('truffle-hdwallet-provider');
 
-var mnemonic = 'antique better rule host boring scorpion drop hunt rose quantum hurdle urban';
+var mnemonic = 'leisure trust pull crawl music unable badge opera ancient logic spray spread';
 
 module.exports = {
   networks: { 
