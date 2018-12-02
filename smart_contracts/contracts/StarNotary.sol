@@ -1,4 +1,4 @@
-pragma solidity ^0.4.23;
+pragma solidity ^0.4.24;
 
 import 'openzeppelin-solidity/contracts/token/ERC721/ERC721.sol';
 
@@ -67,8 +67,8 @@ contract StarNotary is ERC721 {
         }
     }
 
-    function tokenIdToStarInfo(uint256 _tokenId) public view returns(string, string, string, string, string) {
-        return (tokenIdToStarInfo[_tokenId].name, tokenIdToStarInfo[_tokenId].story, tokenIdToStarInfo[_tokenId].ra, tokenIdToStarInfo[_tokenId].dec, tokenIdToStarInfo[_tokenId].mag);
-    }
+    // function tokenIdToStarInfo(uint256 _tokenId) public view returns(string, string, string, string, string) {
+    //     return (tokenIdToStarInfo[_tokenId].name, tokenIdToStarInfo[_tokenId].story, tokenIdToStarInfo[_tokenId].ra, tokenIdToStarInfo[_tokenId].dec, tokenIdToStarInfo[_tokenId].mag);
+    // }
     
 }
